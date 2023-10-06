@@ -24,7 +24,10 @@ const url = 'https://ru-drivemusic.net/dl/xgmp6N2UXRdQzVWQIWoaIQ/1574037943/down
 //     console.log('progress:', progress);
 // });
 // downloader.start();
-
+1
+2
+3
+4
 function getFileExtension(resp): string {
     let extension = '';
     extension = mime.extension(resp.headers['content-type']);
