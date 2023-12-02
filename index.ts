@@ -28,6 +28,8 @@ const url = 'https://ru-drivemusic.net/dl/xgmp6N2UXRdQzVWQIWoaIQ/1574037943/down
 2
 3
 4
+5
+64
 function getFileExtension(resp): string {
     let extension = '';
     extension = mime.extension(resp.headers['content-type']);
